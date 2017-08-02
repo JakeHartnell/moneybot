@@ -16,6 +16,8 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+Then setup up docker on your machine if you haven't already (note: for OSX we recommend using `docker-machine` instead of the docker app, which you can install with homebrew).
+
 Next, set up the Postgres database and restore the historical data. We provide scripts to automate this process with Docker (note, however, that you'll need to install postgres on your system for the restore, `brew install postgresql` with homebrew):
 
 ```
